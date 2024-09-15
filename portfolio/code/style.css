@@ -1,0 +1,220 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: #e79bee;
+    color: #000;
+}
+
+header{
+    max-width:auto;
+    width:auto;
+    height:40px;
+    background-color: #ce53af;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+img.logo{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: right;
+    gap:1rem;
+    width:40px;
+    height:40px;
+    border-radius: 2rem;
+    border-color: #000;
+    max-width:max-content;
+
+}
+div.menu{
+    display: flex;
+    flex-direction: row;
+    color: #000;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem;
+    padding:10px;
+    width: 50px;
+    height: 50px;
+    max-width: max-content;
+    border-radius: 1rem;
+    border-color: #000;
+}
+img.linkedin{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:left;
+    gap:1rem;
+    max-width:max-content;
+    width:40px;
+    height:40px;
+    border-color: #ffffff;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width:max-content;
+}
+
+h1{
+    margin: 0.5rem;
+    background-color: #cc98c8;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    gap:0.5rem;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: normal;
+    font-weight:300px;
+    width:1350px;
+    height:300px;
+    padding: 2rem;
+    max-width: max-content;
+
+}
+h2.intro{
+    max-width: 1140px;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    border-radius: 0.5rem;
+    margin:2rem;
+    width: max-content;
+    height:auto;
+    background-color: #eba0cb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+
+    color:#000;
+
+}
+img.perfil{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-between;
+    align-items:center;
+    gap:2rem;
+    max-width:max-content;
+    width:100px;
+    height:100px;
+    border-radius: 1rem;
+    border-color:#000;
+}
+
+.h2.contato{
+background-color: #eed2f1;
+font-family:Arial, Helvetica, sans-serif;
+color: hsl(0, 0%, 0%);
+font-size: 20px;
+font-weight: 200;
+text-transform: uppercase;
+border-radius: 0.5rem;
+}
+h2.hero-contain{
+    max-width:1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    border-color: #000;
+    color:#000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    width: auto;
+    height:auto;
+}
+section.linguagens{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color:#000;
+    width:1120px;
+    height:300px;
+    max-width: max-content;
+    border-radius: 1rem;
+    text-decoration: none;
+
+}
+img.html{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    max-width:max-content;
+    width:300px;
+    height:300px;
+    padding:1rem;
+    border-radius: 2rem;
+    border-color: #000;
+}
+img.css{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    max-width:max-content;
+    width:300px;
+    height:300px;
+    padding:1rem;
+    border-radius: 2rem;
+    border-color: #000;
+}
+img.js{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    max-width:max-content;
+    width:300px;
+    height:300px;
+    padding:1rem;
+    border-radius: 2rem;
+    border-color: #000;
+}
+img.python{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    max-width:max-content;
+    width: 300px;
+    height:300px;
+    padding:1rem;
+    border-radius: 2rem;
+    border-color: #000;
+}
+
+footer{
+    background-color: #ce53af;
+    width:auto;
+    height:50px;
+    font-weight: 200;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    color:#000;
+    justify-content: center;
+    max-width:auto;
+    font-size: 2rem;
+}
+
