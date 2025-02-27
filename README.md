@@ -1,3 +1,5 @@
 # Portfolio
 PORTFOLIO(LINK CERTO)
-Ainda tenho algumas alterações que serão feitas futuramente, como a correção de links de redirecionamento, por exemplo, e add alguns efeitos de CSS
+Atualizei a estilização. link certo do Deploy: https://portfolio-two-dun-51.vercel.app/
+
+obs: como estou somente utilizando o github pelo celular por enquanto não tem como atualizar muito ou alterar. Mas logo vou organizar o repositório ♡
