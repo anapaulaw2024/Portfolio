@@ -1,16 +1,19 @@
 *{margin: 0;
+
 padding: 0;
+
 box-sizing: border-box;
 }
 
 body{
-    background-color: #e79bee;
+    background-color: #484445;
     color: #000;
+    width: 24.5rem;
+    height: max-content;
 }
 
 header{
     max-width:auto;
-    width:auto;
     height:5rem;
     background-color: #ce53af;
     font-family: 'Times New Roman', Times, serif;
@@ -21,8 +24,6 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
-
 }
 img.logo{
     display: flex;
@@ -40,13 +41,14 @@ img.logo{
 div.menu{
     display: flex;
     flex-direction: row;
+    font-family: Sans-Serif;
     color: #000;
     justify-content: space-between;
     align-items: center;
     gap:2rem;
-    padding:10px;
-    width: ;
-    height: ;
+    padding:2.5rem;
+    width: 20rem;
+    height: 5rem;
     max-width: max-content;
     border-radius: 1rem;
     border-color: #000;
@@ -72,21 +74,27 @@ main{
 
 h1{
     margin: 0.5rem;
-    background-color: #cc98c8;
+    background-color: #000;
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.5rem;
     gap:0.5rem;
-    color:black;
+    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content:space-around;
     align-items: normal;
-    font-weight:300px;
-    width:1350px;
-    height:300px;
     padding: 2rem;
     max-width: max-content;
+    margin: 0;
+    border-color: violet;
 
+}
+p{
+  background-color: gray;
+  color: #fff;
+  padding: 2rem;
+  gap: 2rem;
+  justify-content: space-between;
 }
 h2.intro{
     max-width: 1140px;
@@ -129,18 +137,17 @@ text-transform: uppercase;
 border-radius: 0.5rem;
 }
 h2.hero-contain{
-    max-width:1140px;
+  background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-radius: 1rem;
     border-color: #000;
-    color:#000;
+    color:pink;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    width: auto;
-    height:auto;
+    width: 24.5rem;
+    height: 2.5rem;
 }
 section.linguagens{
     font-family: 'Times New Roman', Times, serif;
@@ -149,8 +156,8 @@ section.linguagens{
     justify-content: space-between;
     align-items: center;
     color:#000;
-    width:1120px;
-    height:300px;
+    width:24.5rem;
+    height:max-content;
     max-width: max-content;
     border-radius: 1rem;
     text-decoration: none;
@@ -162,8 +169,8 @@ img.html{
     justify-content:space-between;
     align-items:center;
     max-width:max-content;
-    width:300px;
-    height:300px;
+    width:2rem;
+    height:5rem;
     padding:1rem;
     border-radius: 2rem;
     border-color: #000;
@@ -174,8 +181,8 @@ img.css{
     justify-content:space-between;
     align-items:center;
     max-width:max-content;
-    width:300px;
-    height:300px;
+    width:2rem;
+    height:5rem;
     padding:1rem;
     border-radius: 2rem;
     border-color: #000;
@@ -186,8 +193,8 @@ img.js{
     justify-content:space-between;
     align-items: center;
     max-width:max-content;
-    width:300px;
-    height:300px;
+    width:2rem;
+    height:5rem;
     padding:1rem;
     border-radius: 2rem;
     border-color: #000;
@@ -198,24 +205,70 @@ img.python{
     justify-content:space-between;
     align-items:center;
     max-width:max-content;
-    width: 300px;
-    height:300px;
+    width: 2rem;
+    height:5rem;
     padding:1rem;
     border-radius: 2rem;
     border-color: #000;
 }
+img.mysql{
+  display: flex;
 
-footer{
+    flex-direction:row;
+
+    justify-content:space-between;
+    align-items:center;
+    max-width:max-content;
+    width: 2rem;
+    height:5rem;
+    padding:1rem;
+    border-radius: 2rem;
+    border-color: #000;
+}
+a{
+  cursor: pointer;
+  color: pink;
+}
+h2.projetos{
+  background-color: #fff;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: #000;
+    color:pink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    width: 24.5rem;
+    height: 2.5rem;
+}
+h3 p a{
+  background-color: #E2E2E2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-color: #000;
+    color:pink;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    width: 24.5rem;
+    height: 2.5rem;
+}
+footer p{
     background-color: #ce53af;
-    width:auto;
-    height:50px;
-    font-weight: 200;
+    font-size: sans-serif;
+    width:24.5;
+    height:5rem;
     display: flex;
     flex-direction:row;
     align-items: center;
     color:#000;
     justify-content: center;
-    max-width:auto;
-    font-size: 2rem;
+    font-size: 1rem;
+    margin:0;
 }
+
 
