@@ -1,0 +1,52 @@
+*{margin: 0;
+
+padding: 0;
+
+box-sizing: border-box;
+}
+body{
+    background-color:#8d8089;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+    color:black;
+    align-items: center;
+    justify-content: center;
+}
+header img.logo{
+    display: flex;
+    width:5rem;
+    height:5rem;
+    justify-content:flex-start;
+    align-items:left;
+    gap:10rem;
+    border-radius: 1.5rem;
+}
+section.sobre-mim img{
+    width:10rem;
+    height:12.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+section.linguagens img{
+    width:10rem;
+    height:12.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: pink;
+    color:black;
+    align-items: center;
+    justify-content: center;
+}
